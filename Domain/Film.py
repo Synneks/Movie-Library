@@ -5,7 +5,8 @@ class Film:
     scor = ''
     actori = []
     pret = 0
-
+    
+    # Constructor for the class
     def __init__(self, ID, nume, an, scor, actori, pret):
         self.ID = ID
         self.nume = nume
@@ -13,7 +14,8 @@ class Film:
         self.scor = scor
         self.actori = actori
         self.pret = pret
-
+    
+    # toString method for an Film object
     def __str__(self):return "<ID:%s nume:%s an:%s scor:%s actori:%s pret:%s>" % (self.ID, self.nume, self.scor, self.an, self.actori, self.pret)
 
 
